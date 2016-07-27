@@ -1,10 +1,10 @@
-package fmartinez.kata01.stringCalculator;
+package fmartinez.kata00.stringCalculator;
 
 import java.util.regex.Pattern;
 
-public class StringCalculator {
+class StringCalculator {
 
-	public int Add(String input) {
+	int Add(String input) {
 		int result = 0;
 		
 		String delimeter = ",|\n";
